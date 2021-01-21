@@ -9,3 +9,51 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+
+body {
+  background-image: url("https://i.stack.imgur.com/jGlzr.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
+
+h1 {
+  background-image: url("https://www.pcc.edu/web-services/wp-content/uploads/sites/6/2017/05/default-header-overlay.png");
+  background-attachment: scroll;
+  text-align: center;
+  text-shadow: 2px 2px 5px yellow;
+  padding: 40px 40px;
+  font-size: 300%;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  color: yellow;
+  font-style: italic;
+  font-size: 120%;
+  text-align: center;
+  padding: 25px 50px;
+  background-image: url("https://www.pcc.edu/web-services/wp-content/uploads/sites/6/2017/05/default-header-overlay.png");
+}
+
+img {
+  border: 7px solid #4682B4;
+}
+
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-style: bold;
+  font-size: 120%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
